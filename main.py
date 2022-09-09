@@ -8,17 +8,8 @@
 
 import numpy as np
 import panda as pd
+from    matplotlib import pyplot as plt
 from cryptography.fernet import Fernet
 from datetime import date
 
 # The moment the user inputs the file we need to encrypt it,
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
