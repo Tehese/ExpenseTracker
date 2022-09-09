@@ -8,8 +8,13 @@
 
 import numpy as np
 import panda as pd
-from    matplotlib import pyplot as plt
+from matplotlib import pyplot as plt
 from cryptography.fernet import Fernet
 from datetime import date
 
 # The moment the user inputs the file we need to encrypt it,
+
+
+Income = ['Income']
+Expenses = ['Food', 'Coffee', 'Gas', 'Housing', 'Utilities', 'Transportation', 'Personal Spending',
+            'Subscriptions', 'Miscellaneous']
