@@ -14,7 +14,7 @@ from datetime import date
 
 # The moment the user inputs the file we need to encrypt it,
 
-
+#Variables for Income and Expenses
 Income = ['Income']
 Expenses = ['Food', 'Coffee', 'Gas', 'Housing', 'Utilities', 'Transportation', 'Personal Spending',
             'Subscriptions', 'Miscellaneous']
